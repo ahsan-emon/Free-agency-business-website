@@ -48,6 +48,9 @@ common & utilities style
   font-size: 15px;
   font-weight: 600;
 }
+.menu ul li a:hover {
+  color: rgb(222, 43, 36);
+}
 .menu ul li .fa-circle {
   font-size: 5px;
 }
@@ -443,6 +446,9 @@ common & utilities style
   justify-content: center;
   align-items: center;
 }
+.get-in-touch-container .social ul li:hover {
+  border: 2px solid rgb(222, 43, 36);
+}
 .get-in-touch-container .social ul li a {
   color: #fff;
   font-size: 23px;
@@ -466,6 +472,8 @@ common & utilities style
   padding-left: 15px;
   margin: 25px 0;
   font-size: 18px;
+  outline: none;
+  color: #fff;
 }
 .get-in-touch-container input::placeholder {
   color: #cecece;
@@ -480,6 +488,7 @@ common & utilities style
   font-size: 17px;
   color: #fff;
   font-weight: 600;
+  cursor: pointer;
 }
 /* ----------------
  footer style 
