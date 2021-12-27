@@ -16,6 +16,7 @@ common & utilities style
   justify-content: space-between;
   align-items: center;
   padding: 25px 0px;
+  position: relative;
 }
 .logo-area {
   display: flex;
@@ -489,6 +490,9 @@ common & utilities style
   color: #fff;
   font-weight: 600;
   cursor: pointer;
+}
+.get-in-touch-container button:hover {
+  border: 2px solid rgb(222, 43, 36);
 }
 /* ----------------
  footer style 

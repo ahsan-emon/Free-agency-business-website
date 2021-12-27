@@ -1,7 +1,11 @@
-// (function($){
-//     $(document).ready(function(){
-//         $('.fa-chevron-circle-down').focus(function(){
-//             $('.form-box').hide();
-//         });
-//     });
-//   })(jQuery)
+(function($){
+    $(document).ready(function(){
+        $('.form-box').hide();
+        $('.fa-chevron-down').click(function(){
+            $('.form-box').slideDown(100);
+        });
+        $('.fa-times-circle').click(function(){
+            $('.form-box').slideUp(100);
+        });
+    });
+})(jQuery)
