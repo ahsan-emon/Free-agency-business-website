@@ -2,6 +2,7 @@
  responsive style
 ------------------ */
 @media screen and (max-width: 688px) {
+  /* header style  */
   .header-container {
     width: 90%;
     margin: auto;
@@ -41,6 +42,7 @@
     margin-top: 20px;
     padding: 0;
   }
+  /* banner style  */
   .banner-content {
     height: 250px;
   }
@@ -103,12 +105,13 @@
   }
   .content .content-img img {
     width: 120px;
+    height: 100%;
   }
   .content-text .text-flex-odd {
-    margin: 0px 10px 0px 20px;
+    margin: 0px 5px 0px 20px;
   }
   .content-text .text-flex-even {
-    margin: 0px 20px 0px 10px;
+    margin: 0px 20px 0px 5px;
   }
   .content-text .text-flex h1 {
     font-size: 10px;
