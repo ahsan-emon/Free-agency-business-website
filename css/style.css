@@ -173,6 +173,7 @@ common & utilities style
   box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 3px;
   margin-bottom: 35px;
   height: 236px;
+  border-radius: 4px;
 }
 .contents .content1 {
   display: flex;
