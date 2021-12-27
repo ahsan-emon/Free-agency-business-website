@@ -16,7 +16,6 @@ common & utilities style
   justify-content: space-between;
   align-items: center;
   padding: 25px 0px;
-  position: relative;
 }
 .logo-area {
   display: flex;
@@ -146,6 +145,7 @@ common & utilities style
 .about-us-container .icon-items .item h2 {
   color: rgb(66, 66, 66);
   margin-top: 10px;
+  font-size: 22px;
 }
 .about-us-container .icon-items .item p {
   color: rgb(66, 66, 66);
@@ -280,13 +280,11 @@ common & utilities style
 .our-work-container .top-text {
   text-align: center;
 }
-.our-work-container .top-text h1,
-.form-container .top-text h1 {
+.our-work-container .top-text h1 {
   font-size: 36px;
   color: rgb(255, 255, 255);
 }
-.our-work-container .top-text p,
-.form-container .top-text p {
+.our-work-container .top-text p {
   color: rgb(255, 255, 255);
   font-size: 16px;
 }
@@ -338,6 +336,12 @@ common & utilities style
 .form-container .top-text {
   text-align: center;
   color: #fff;
+}
+.form-container .top-text h1 {
+  font-size: 32px;
+}
+.form-container .top-text p {
+  font-size: 15px;
 }
 .form-area {
   text-align: center;
@@ -395,6 +399,7 @@ common & utilities style
   margin: auto;
   padding: 15px 25px;
   cursor: pointer;
+  border: none;
 }
 .form-box .fa-times-circle {
   position: absolute;
