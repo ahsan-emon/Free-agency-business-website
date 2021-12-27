@@ -1,10 +1,14 @@
-/* common & utilities style  */
+/* --------------------------
+common & utilities style 
+------------------------- */
 * {
   margin: 0px;
   padding: 0px;
   font-family: Helvetica;
 }
-/* header style  */
+/* -------------------
+ header style 
+ ----------------- */
 .header-container {
   width: 90%;
   margin: auto;
@@ -60,7 +64,9 @@
   margin-right: 0px;
   margin-left: 12px;
 }
-/* banner style  */
+/* -------------------
+ banner style 
+ ----------------- */
 .banner {
   background-image: url("../images/banner.png");
   background-repeat: no-repeat;
@@ -96,11 +102,13 @@
   margin-top: 25px;
   font-weight: 600;
 }
-/* about us style */
+/* -------------------
+ about us part style 
+ ----------------- */
 .about-us-container {
   width: 75%;
   margin: auto;
-  padding: 60px 0;
+  padding: 60px 0px;
 }
 .about-us-container .top-text {
   text-align: center;
@@ -108,18 +116,18 @@
 .about-us-container .top-text h1,
 .our-approach-container .top-text h1 {
   font-size: 36px;
-  color: #424242;
+  color: rgb(66, 66, 66);
 }
 .about-us-container .top-text p,
 .our-approach-container .top-text p {
-  color: #424242;
+  color: rgb(66, 66, 66);
   font-size: 16px;
 }
 .about-us-container .top-text hr,
 .our-approach-container .top-text hr {
   display: inline-block;
   width: 30px;
-  border: 2px solid #424242;
+  border: 2px solid rgb(66, 66, 66);
   border-radius: 3px;
 }
 .about-us-container .icon-items {
@@ -132,31 +140,33 @@
   text-align: center;
 }
 .about-us-container .icon-items .item h2 {
-  color: #424242;
+  color: rgb(66, 66, 66);
   margin-top: 10px;
 }
 .about-us-container .icon-items .item p {
-  color: #424242;
+  color: rgb(66, 66, 66);
   font-size: 15px;
   margin-top: 5px;
 }
-/* our approach style  */
+/* -------------------------
+ our approach part style 
+ ----------------------- */
 .our-approach {
-  background-color: #f3f3f3;
+  background-color: rgb(243, 243, 243);
   margin-top: 10px;
 }
 .our-approach .our-approach-container {
   width: 80%;
   margin: auto;
-  padding: 60px 0 70px 0;
+  padding: 60px 0px 70px;
 }
 .our-approach-container .top-text {
   padding-bottom: 30px;
   text-align: center;
 }
 .content {
-  background-color: #fff;
-  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 3px;
   margin-bottom: 35px;
   height: 236px;
 }
@@ -172,32 +182,33 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 .content-text .text-flex-odd {
-  margin: 0 60px 0 100px;
+  margin: 0px 60px 0px 100px;
   text-align: left;
 }
 .content-text .text-flex-even {
-  margin: 0 100px 0 60px;
+  margin: 0px 100px 0px 60px;
   text-align: right;
 }
 .content-text .text-flex h1 {
-  color: #424242;
+  color: rgb(66, 66, 66);
   font-size: 18px;
   margin-bottom: 6px;
 }
 .content-text .text-flex p {
-  color: #424242;
+  color: rgb(66, 66, 66);
   font-size: 14px;
 }
 .contents .content2 {
   display: flex;
 }
 .content-img .number-box {
-  background-color: #de2b24;
+  background-color: rgb(222, 43, 36);
   border: none;
   border-radius: 3px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   display: inline-block;
   padding: 10px 25px;
   line-height: 25px;
@@ -228,26 +239,259 @@
   top: 50%;
   left: 100%;
   transform: translate(-50%, -50%);
-  box-shadow: -2px 0px 5px #fff;
+  box-shadow: rgb(255, 255, 255) -2px 0px 5px;
 }
 .content-img .box2 {
   position: absolute;
   top: 50%;
   right: 100%;
   transform: translate(50%, -50%);
-  box-shadow: 2px 0px 5px #fff;
+  box-shadow: rgb(255, 255, 255) 2px 0px 5px;
 }
 .content-img .box3 {
   position: absolute;
   top: 50%;
   left: 100%;
   transform: translate(-50%, -50%);
-  box-shadow: -2px 0px 5px #fff;
+  box-shadow: rgb(255, 255, 255) -2px 0px 5px;
 }
 .content-img .box4 {
   position: absolute;
   top: 50%;
   right: 100%;
   transform: translate(50%, -50%);
-  box-shadow: 2px 0px 5px #fff;
+  box-shadow: rgb(255, 255, 255) 2px 0px 5px;
+}
+/* --------------------
+ our work part style 
+ ------------------ */
+.our-work {
+  background-color: rgb(221, 42, 36);
+}
+.our-work-container {
+  width: 80%;
+  margin: auto;
+  padding: 60px 0px 80px;
+}
+.our-work-container .top-text {
+  text-align: center;
+}
+.our-work-container .top-text h1,
+.form-container .top-text h1 {
+  font-size: 36px;
+  color: rgb(255, 255, 255);
+}
+.our-work-container .top-text p,
+.form-container .top-text p {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+.our-work-container .top-text hr {
+  display: inline-block;
+  width: 30px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 3px;
+}
+.work-projects {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.work-projects img {
+  width: 25%;
+}
+.work-projects .project-name {
+  width: 25%;
+  background-color: rgb(243, 94, 87);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+.work-projects .project-name .far {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+.work-projects .project-name h1 {
+  font-size: 26px;
+  font-weight: 500;
+}
+.work-projects .project-name p {
+  font-size: 15px;
+}
+/* ------------------
+ form part style 
+ ----------------- */
+.form-part {
+  background-color: #1286bf;
+}
+.form-container {
+  width: 50%;
+  margin: auto;
+  padding: 60px 0 70px 0;
+}
+.form-container .top-text {
+  text-align: center;
+  color: #fff;
+}
+.form-area {
+  text-align: center;
+}
+.form-area .fa-chevron-down {
+  color: #fff;
+  font-size: 30px;
+  margin: 20px 0 40px 0;
+  cursor: pointer;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  padding: 10px 12px;
+}
+.form-box {
+  background: #fff;
+  padding: 50px 0 60px 0;
+  position: relative;
+}
+.form-box-area {
+  width: 80%;
+  margin: auto;
+}
+.form-box-area p {
+  color: #828282;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+.form-box-area form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+.form-box-area form input {
+  margin-bottom: 15px;
+  padding: 13px 0;
+  padding-left: 15px;
+  font-size: 18px;
+  outline-color: #67add7;
+  border: 2px solid #dbdbdb;
+  border-radius: 5px;
+}
+.form-box-area form input::placeholder {
+  font-size: 14px;
+  color: #b0b0b0;
+}
+.form-box-area form input:nth-child(3) {
+  margin-bottom: 30px;
+}
+.form-box-area form input[type="submit"] {
+  background: #dd2a24;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  margin: auto;
+  padding: 15px 25px;
+  cursor: pointer;
+}
+.form-box .fa-times-circle {
+  position: absolute;
+  top: -25px;
+  right: -25px;
+  color: #dd2a24;
+  font-size: 50px;
+  background: #fff;
+  padding: 2px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.form-box .fa-caret-up {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  color: #fff;
+  font-size: 80px;
+  transform: translate(-50%, 0px);
+}
+/* -------------------------
+ get in touch style here 
+ ----------------------- */
+.get-in-touch {
+  background-color: #292929;
+}
+.get-in-touch-container {
+  width: 50%;
+  margin: auto;
+  padding: 60px 0;
+  text-align: center;
+}
+.get-in-touch-container h2 {
+  color: #fff;
+  font-size: 29px;
+}
+.get-in-touch-container .social ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 25px 0 30px 0;
+}
+.get-in-touch-container .social ul li {
+  margin-right: 20px;
+  border: 2px solid #515151;
+  border-radius: 5px;
+  width: 50px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.get-in-touch-container .social ul li a {
+  color: #fff;
+  font-size: 23px;
+}
+.get-in-touch-container .social ul li:last-child {
+  margin-right: 0;
+}
+.get-in-touch-container .social ul .active {
+  border: 2px solid rgb(222, 43, 36);
+}
+.get-in-touch-container p {
+  color: #cecece;
+  font-size: 14px;
+}
+.get-in-touch-container input {
+  width: 100%;
+  background-color: #515151;
+  border: none;
+  border-radius: 3px;
+  padding: 15px 0;
+  padding-left: 15px;
+  margin: 25px 0;
+  font-size: 18px;
+}
+.get-in-touch-container input::placeholder {
+  color: #cecece;
+  font-size: 14px;
+}
+.get-in-touch-container button {
+  background: none;
+  border: none;
+  border: 2px solid #515151;
+  border-radius: 3px;
+  padding: 12px 30px;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 600;
+}
+/* ----------------
+ footer style 
+ --------------- */
+footer {
+  background-color: #515151;
+}
+.footer-container {
+  padding: 20px 0;
+}
+.footer-container p {
+  font-size: 14px;
+  color: #cecece;
+  text-align: center;
 }
