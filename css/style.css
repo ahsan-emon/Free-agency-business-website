@@ -63,6 +63,9 @@ common & utilities style
   padding: 10px 20px;
   border-radius: 5px;
 }
+.menu ul li:last-child a:hover {
+  background-color: rgba(222, 43, 36, 0.8);
+}
 .menu ul li:last-child {
   margin-right: 0px;
   margin-left: 12px;
@@ -104,6 +107,9 @@ common & utilities style
   border-radius: 5px;
   margin-top: 25px;
   font-weight: 600;
+}
+.banner-content a:hover {
+  background: rgba(247, 205, 83, 0.8);
 }
 /* -------------------
  about us part style 
@@ -356,6 +362,10 @@ common & utilities style
   border-radius: 50%;
   padding: 10px 12px;
 }
+.form-area .fa-chevron-down:hover {
+  color: rgba(255, 255, 255, 0.7);
+  border: 5px solid rgba(255, 255, 255, 0.7);
+}
 .form-box {
   background: #fff;
   padding: 50px 0 60px 0;
@@ -402,6 +412,9 @@ common & utilities style
   cursor: pointer;
   border: none;
 }
+.form-box-area form input[type="submit"]:hover {
+  background: rgba(221, 42, 36, 0.8);
+}
 .form-box .fa-times-circle {
   position: absolute;
   top: -25px;
@@ -413,6 +426,9 @@ common & utilities style
   border-radius: 50%;
   cursor: pointer;
 }
+.form-box .fa-times-circle:hover {
+  color: rgba(221, 42, 36, 0.8);
+}
 .form-box .fa-caret-up {
   position: absolute;
   top: -50px;
@@ -421,6 +437,7 @@ common & utilities style
   font-size: 80px;
   transform: translate(-50%, 0px);
 }
+
 /* -------------------------
  get in touch style here 
  ----------------------- */

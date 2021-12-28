@@ -177,6 +177,9 @@
     border: 2.5px solid #fff;
     padding: 4px 6px;
   }
+  .form-area .fa-chevron-down:hover {
+    border: 2.5px solid rgba(255, 255, 255, 0.7);
+  }
   .form-box {
     padding: 10px 0 20px 0;
   }
@@ -452,6 +455,9 @@
     margin: 20px 0 25px 0;
     border: 3px solid #fff;
     padding: 9px 10px;
+  }
+  .form-area .fa-chevron-down:hover {
+    border: 3px solid rgba(255, 255, 255, 0.7);
   }
   .form-box {
     padding: 15px 0 20px 0;
