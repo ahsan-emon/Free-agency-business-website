@@ -1,7 +1,7 @@
-/* -------------------
- responsive style
------------------- */
-@media screen and (max-width: 688px) {
+/* ---------------------------------------------
+ responsive style for small screen like mobile 
+-------------------------------------------- */
+@media only screen and (max-width: 688px) {
   /* header style  */
   .header-container {
     width: 90%;
@@ -61,7 +61,7 @@
   }
   /* about us style  */
   .about-us-container {
-    padding: 30px 0px;
+    padding: 20px 0px;
     width: 90%;
   }
   .about-us-container .top-text h1,
@@ -289,5 +289,281 @@
   }
   .footer-container p {
     font-size: 8px;
+  }
+}
+/* -------------------------------
+ for medium screen like tablet 
+ ----------------------------- */
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+  /* header style  */
+  .header-container {
+    width: 90%;
+    margin: auto;
+  }
+  .logo-area .fa-graduation-cap {
+    font-size: 45px;
+  }
+  .logo-text h1 {
+    font-size: 30px;
+  }
+  .logo-text p {
+    font-size: 12px;
+  }
+  .menu ul {
+    margin-top: 20px;
+  }
+  .menu ul li {
+    padding: 2px 5px;
+  }
+  .menu ul li a {
+    font-size: 12px;
+  }
+  .menu ul li:nth-child(2),
+  .menu ul li:nth-child(4),
+  .menu ul li:nth-child(6) {
+    display: none;
+  }
+  .menu ul li:last-child a {
+    padding: 8px 12px;
+    border-radius: 2px;
+  }
+  .menu ul li:last-child {
+    margin-left: 0px;
+    padding: 0;
+  }
+  /* banner style  */
+  .banner-content {
+    height: 350px;
+  }
+  .banner-content h1 {
+    font-size: 32px;
+  }
+  .banner-content p {
+    font-size: 16px;
+  }
+  .banner-content a {
+    font-size: 13px;
+    padding: 11px 15px;
+    margin-top: 12px;
+    border-radius: 2px;
+  }
+  /* about us style  */
+  .about-us-container {
+    padding: 25px 0px;
+    width: 90%;
+  }
+  .about-us-container .top-text h1,
+  .our-approach-container .top-text h1 {
+    font-size: 28px;
+  }
+  .about-us-container .top-text p,
+  .our-approach-container .top-text p {
+    font-size: 14px;
+  }
+  .about-us-container .top-text hr,
+  .our-approach-container .top-text hr {
+    border: 2px solid rgb(66, 66, 66);
+  }
+  .about-us-container .icon-items {
+    margin-top: 20px;
+  }
+  .about-us-container .icon-items .item {
+    width: 30%;
+  }
+  .about-us-container .icon-items .item img {
+    width: 60px;
+  }
+  .about-us-container .icon-items .item h2 {
+    margin-top: 5px;
+    font-size: 18px;
+  }
+  .about-us-container .icon-items .item p {
+    font-size: 10px;
+    margin-top: 3px;
+  }
+  /* our approach style  */
+  .our-approach .our-approach-container {
+    width: 90%;
+    padding: 25px 0px;
+  }
+  .our-approach-container .top-text {
+    padding-bottom: 20px;
+  }
+  .content {
+    margin-bottom: 20px;
+    height: auto;
+    border-radius: 3px;
+  }
+  .content .content-img img {
+    width: 200px;
+    height: 100%;
+  }
+  .content-text .text-flex-odd {
+    margin: 0px 10px 0px 25px;
+  }
+  .content-text .text-flex-even {
+    margin: 0px 25px 0px 10px;
+  }
+  .content-text .text-flex h1 {
+    font-size: 16px;
+    margin-bottom: 3px;
+  }
+  .content-text .text-flex p {
+    font-size: 9px;
+  }
+  .content-img .number-box {
+    padding: 4px 10px;
+    line-height: 16px;
+  }
+  .content-img .number-box h1 {
+    font-size: 20px;
+  }
+  .content-img .number-box p {
+    font-size: 10px;
+  }
+  /* our work style  */
+  .our-work-container {
+    width: 90%;
+    padding: 20px 0px 30px;
+  }
+  .our-work-container .top-text h1 {
+    font-size: 28px;
+  }
+  .our-work-container .top-text p {
+    font-size: 14px;
+  }
+  .our-work-container .top-text hr {
+    border: 2px solid rgb(255, 255, 255);
+  }
+  .work-projects {
+    margin-top: 15px;
+  }
+  .work-projects .project-name .far {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .work-projects .project-name h1 {
+    font-size: 16px;
+  }
+  .work-projects .project-name p {
+    font-size: 10px;
+  }
+  /* form style  */
+  .form-container {
+    width: 80%;
+    padding: 20px 0 20px 0;
+  }
+  .form-container .top-text h1 {
+    font-size: 22px;
+  }
+  .form-container .top-text p {
+    font-size: 13px;
+  }
+  .form-area .fa-chevron-down {
+    font-size: 22px;
+    margin: 20px 0 25px 0;
+    border: 3px solid #fff;
+    padding: 9px 10px;
+  }
+  .form-box {
+    padding: 15px 0 20px 0;
+  }
+  .form-box-area {
+    width: 85%;
+  }
+  .form-box-area p {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .form-box-area form {
+    width: 95%;
+  }
+  .form-box-area form input {
+    margin-bottom: 15px;
+    padding: 12px 0;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 1.8px solid #dbdbdb;
+    border-radius: 3px;
+  }
+  .form-box-area form input::placeholder {
+    font-size: 12px;
+  }
+  .form-box-area form input:nth-child(3) {
+    margin-bottom: 18px;
+  }
+  .form-box-area form input[type="submit"] {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+  .form-box .fa-times-circle {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 45px;
+    padding: 2px;
+  }
+  .form-box .fa-caret-up {
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    font-size: 55px;
+    transform: translate(-50%, 0px);
+  }
+  /* get in touch style  */
+  .get-in-touch-container {
+    width: 80%;
+    padding: 30px 0;
+  }
+  .get-in-touch-container h2 {
+    font-size: 25px;
+  }
+  .get-in-touch-container .social ul {
+    margin: 15px 0 20px 0;
+  }
+  .get-in-touch-container .social ul li {
+    margin-right: 15px;
+    border: 1.8px solid #515151;
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
+  }
+  .get-in-touch-container .social ul li:hover {
+    border: 1.8px solid rgb(222, 43, 36);
+  }
+  .get-in-touch-container .social ul li a {
+    font-size: 16px;
+  }
+  .get-in-touch-container .social ul .active {
+    border: 1.8px solid rgb(222, 43, 36);
+  }
+  .get-in-touch-container p {
+    font-size: 12px;
+  }
+  .get-in-touch-container input {
+    padding: 16px 0;
+    padding-left: 10px;
+    margin: 18px 0;
+    font-size: 14px;
+    border-radius: 3px;
+  }
+  .get-in-touch-container input::placeholder {
+    font-size: 13px;
+  }
+  .get-in-touch-container button {
+    border: 1.8px solid #515151;
+    padding: 15px 22px;
+    font-size: 15px;
+    border-radius: 3px;
+  }
+  .get-in-touch-container button:hover {
+    border: 1.8px solid rgb(222, 43, 36);
+  }
+  /* footer style  */
+  .footer-container {
+    padding: 20px 0;
+  }
+  .footer-container p {
+    font-size: 12px;
   }
 }
